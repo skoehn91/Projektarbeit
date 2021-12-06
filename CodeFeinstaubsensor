@@ -37,9 +37,9 @@ BME280 bme280;
 
 // Initialize InfluxDB
 #define INFLUXDB_URL "https://westeurope-1.azure.cloud2.influxdata.com"
-#define INFLUXDB_TOKEN "sCONOUiw2wdzkjNxPKuMN6IE4CNys5vKnwb40V5fKKQxnbjsAuSAK4xo3vahv8Cx5ICDHUlLLOtEdWVGGQqUgg==" //  Generate at InfluxDB
-#define INFLUXDB_ORG "maju.deventer@googlemail.com"
-#define INFLUXDB_BUCKET "NodeMCU_Vergleiche" // AQ-JDMB
+#define INFLUXDB_TOKEN "abcdefgh123456789" //  Generate at InfluxDB
+#define INFLUXDB_ORG "maxmustermann@hotmail.de"
+#define INFLUXDB_BUCKET "LastChristmas" // AQ-JDMB
 
 // Set timezone string according to https://www.gnu.org/software/libc/manual/html_node/TZ-Variable.html
 #define TZ_INFO "CET-1CEST,M3.5.0,M10.5.0/3"
